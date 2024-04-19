@@ -7,7 +7,7 @@ const options = {
         }else{
             callback(new Error('Not allowed by CORS'))
         }
-    }
+    },
 }
 
 const corsSetting = cors(options)
